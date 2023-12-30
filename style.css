@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: arial;
+  font-weight: 700;
+}
+
+body {
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+
+.container.nav-content {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.logo1 {
+  gap: 40%;
+  padding: 40px;
+
+}
+
+.nav-list {
+  display: flex;
+  color: white;
+  gap: 30px;
+  align-items: center;
+  margin-top: 49px;
+  margin-bottom: 50px;
+  text-decoration: none;
+
+}
+
+.main-content {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.h2 {
+  padding: 40px;
+  color: #4581B7;
+}
+
+.p1 {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 21px;
+}
+
+.content-left {
+  width: 720px;
+  background-color: #F0F0F0;
+  padding: 10px;
+  text-align: left;
+
+}
+
+.content-right {
+  width: 300px;
+  background-color: #F0F0F0;
+  padding: 10px;
+  text-align: left;
+
+}
+
+.h22 {
+
+  padding: 40px;
+  color: #4581B7;
+}
+
+.about-content-text {
+  max-width: 1250px;
+  padding: 0 15px;
+  gap: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #808080;
+}
+
+.p2 {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 21px;
+}
+
+.footer {
+  background: #F0F0F0;
+  max-width: 1080px;
+  padding: 0 15px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 30px;
+  font-style: arial;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.footer-logo {
+  color: #F0F0F0;
+  margin: 15px 30px 15px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.p-footer {
+  color: #808080;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+}
+
+.footer-num {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  color: #808080;
+}
